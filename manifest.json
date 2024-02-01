@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Yaper Deal maker",
+    "version": "0.0.1",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "yaper_logo.png"
+    },
+    "icons": {
+        "128": "yaper_logo.png"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}

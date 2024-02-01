@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Yaper deal maker</title>
+</head>
+<body>
+    <div class="content">
+        <div class="left-column">
+            <form id="dealForm">
+                <label for="variantName">Variant Name:</label>
+                <input type="text" id="variantName" required>
+
+                <label for="url">Product URL:</label>
+                <input type="url" id="url" required>
+
+                <label for="salePrice">Sale Price:</label>
+                <input type="number" id="salePrice" required>
+
+                <label for="bank">Bank Name:</label>
+                <input type="text" id="bank" required>
+
+                <label for="storename">Ecommerce Store Name:</label>
+                <input type="text" id="storename" required>
+
+                <label for="yaperCommission">Yaper Commission:</label>
+                <input type="number" id="yaperCommission" required>
+
+                <label for="discountType">Discount Type:</label>
+                <input type="radio" id="flatDiscount" name="discountType" value="flat">
+                <label for="flatDiscount">Flat Discount</label>
+                <input type="radio" id="percentageDiscount" name="discountType" value="percentage">
+                <label for="percentageDiscount">Percentage Discount</label><br><br>
+
+                <label for="discountAmount">Discount Amount:</label>
+                <input type="number" id="discountAmount" required><br><br>
+
+                <label for="maxDiscount">Max Discount Amount:</label>
+                <input type="number" id="maxDiscount" required><br><br>
+
+                <!-- Second set of discount inputs -->
+                <label for="discountType">Discount Type 2:</label>
+                <input type="radio" id="flatDiscount2" name="discountType2" value="flat">
+                <label for="flatDiscount2">Flat Discount</label>
+                <input type="radio" id="percentageDiscount2" name="discountType2" value="percentage">
+                <label for="percentageDiscount2">Percentage Discount</label><br><br>
+
+                <label for="discountAmount2">Discount Amount 2:</label>
+                <input type="number" id="discountAmount2" required><br><br>
+
+                <label for="maxDiscount2">Max Discount Amount 2:</label>
+                <input type="number" id="maxDiscount2" required><br><br>
+
+                <button type="submit">Create Advertisement</button>
+        </form>
+    </div>
+    <div class="right-column">
+        <div id="advertisement"></div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        #dealForm {
+            max-width: 800px;
+            margin: 0 auto; /* Center the form */
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="url"],
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+        }
+
+        #advertisement {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+
+        #advertisement a {
+            display: block;
+            margin-bottom: 10px;
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        #advertisement a:hover {
+            text-decoration: underline;
+        }
+
+        #advertisement h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        #advertisement p {
+            margin-bottom: 8px;
+        }
